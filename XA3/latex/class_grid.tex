@@ -1,0 +1,175 @@
+\hypertarget{class_grid}{}\section{Grid Class Reference}
+\label{class_grid}\index{Grid@{Grid}}
+
+
+Class for the \hyperlink{class_grid}{Grid}.  
+
+
+
+
+{\ttfamily \#include $<$Grid.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_grid_a3602235a1d7b17254b0219dc7b754456}{Grid} (uint16 iH, uint16 iW)
+\begin{DoxyCompactList}\small\item\em Constructor taking in two unsigned integer values. \end{DoxyCompactList}\item 
+\hyperlink{class_grid_a5c60d994d3dcfab965bf7b62d028a797}{Grid} (uint16 Tarr\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Constructor taking in two unsigned integer values. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_a165ea0d0c65632335dbe7df2bc34a030}{get\+Terrain} (uint16 ix, uint16 iy)
+\begin{DoxyCompactList}\small\item\em Public member taking in two variables and returning an unsigned integer value. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_a3feb00999e05825bbb470bdc098e05ab}{set\+Terrain} (uint16 ix, uint16 iy, uint16 i\+Terrain)
+\begin{DoxyCompactList}\small\item\em Public member taking in three variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_a4704642a117a8be8e9defdda92784303}{set\+Properties} (uint16 ix, uint16 iy, uint16 i\+Terrain, bool b\+Blocking, bool b\+Occupied)
+\begin{DoxyCompactList}\small\item\em Public member taking in five variables. \end{DoxyCompactList}\item 
+bool \hyperlink{class_grid_afbfece3a3d96fa4e40316ad9cdf61c98}{is\+Occupied} (uint16 ix, uint16 iy)
+\begin{DoxyCompactList}\small\item\em Public member taking in two variables and returning a boolean value. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_a4142f2281cbb882c39514ffc3c2a59af}{set\+Occupied} (uint16 ix, uint16 iy, bool b\+Occupied)
+\begin{DoxyCompactList}\small\item\em Public member taking in three variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_af15e440bc92017e805740db43a09c034}{move} (uint16 i\+OldX, uint16 i\+OldY, uint16 i\+NewX, uint16 i\+NewY)
+\begin{DoxyCompactList}\small\item\em Public member takeing in four variables. \end{DoxyCompactList}\item 
+bool \hyperlink{class_grid_a8f12a73036cc2f155e20030dfae6b6f6}{is\+Blocked} (uint16 ix, uint16 iy)
+\begin{DoxyCompactList}\small\item\em Public member taking in two variables and returning a boolean value. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_a19e1e00ddf325821bc0c16de9f7799ed}{set\+Blocked} (uint16 ix, uint16 iy, bool b\+Blocked)
+\begin{DoxyCompactList}\small\item\em Public member taking in three variables. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_ab03502a2a92f1890e5e453e5878c66db}{get\+Width} ()
+\begin{DoxyCompactList}\small\item\em Public member returning an unsigned int. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_a374615638fd9e5f587d28486295952ef}{get\+Height} ()
+\begin{DoxyCompactList}\small\item\em Public member returning an unsigned int. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for the \hyperlink{class_grid}{Grid}. 
+
+\hyperlink{class_grid}{Grid} class that contains infromation on terrain, current occupation, and other properties 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_grid_a3602235a1d7b17254b0219dc7b754456}{}\label{class_grid_a3602235a1d7b17254b0219dc7b754456} 
+\index{Grid@{Grid}!Grid@{Grid}}
+\index{Grid@{Grid}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{Grid()}{Grid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Grid\+::\+Grid (\begin{DoxyParamCaption}\item[{uint16}]{iH,  }\item[{uint16}]{iW }\end{DoxyParamCaption})}
+
+
+
+Constructor taking in two unsigned integer values. 
+
+/param iH Height of the \hyperlink{class_grid}{Grid} /param iW Width of the grid Initiate the object with Height and Width values. \hypertarget{class_grid_a5c60d994d3dcfab965bf7b62d028a797}{}\label{class_grid_a5c60d994d3dcfab965bf7b62d028a797} 
+\index{Grid@{Grid}!Grid@{Grid}}
+\index{Grid@{Grid}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{Grid()}{Grid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Grid\+::\+Grid (\begin{DoxyParamCaption}\item[{uint16}]{Tarr\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Constructor taking in two unsigned integer values. 
+
+/param Tarr width and height of the grid in an array Initiate the object with Height and Width values. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_grid_a374615638fd9e5f587d28486295952ef}{}\label{class_grid_a374615638fd9e5f587d28486295952ef} 
+\index{Grid@{Grid}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{get\+Height()}{getHeight()}}
+{\footnotesize\ttfamily uint16 Grid\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Public member returning an unsigned int. 
+
+Get the Height of the grid. \hypertarget{class_grid_a165ea0d0c65632335dbe7df2bc34a030}{}\label{class_grid_a165ea0d0c65632335dbe7df2bc34a030} 
+\index{Grid@{Grid}!get\+Terrain@{get\+Terrain}}
+\index{get\+Terrain@{get\+Terrain}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{get\+Terrain()}{getTerrain()}}
+{\footnotesize\ttfamily uint16 Grid\+::get\+Terrain (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy }\end{DoxyParamCaption})}
+
+
+
+Public member taking in two variables and returning an unsigned integer value. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell Get the terrain value of the cell pertaining to the x and y coordinate. \hypertarget{class_grid_ab03502a2a92f1890e5e453e5878c66db}{}\label{class_grid_ab03502a2a92f1890e5e453e5878c66db} 
+\index{Grid@{Grid}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{get\+Width()}{getWidth()}}
+{\footnotesize\ttfamily uint16 Grid\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Public member returning an unsigned int. 
+
+Get the Width of the grid. \hypertarget{class_grid_a8f12a73036cc2f155e20030dfae6b6f6}{}\label{class_grid_a8f12a73036cc2f155e20030dfae6b6f6} 
+\index{Grid@{Grid}!is\+Blocked@{is\+Blocked}}
+\index{is\+Blocked@{is\+Blocked}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{is\+Blocked()}{isBlocked()}}
+{\footnotesize\ttfamily bool Grid\+::is\+Blocked (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy }\end{DoxyParamCaption})}
+
+
+
+Public member taking in two variables and returning a boolean value. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell Get if the cell at the x and y coordinate is blocked. \hypertarget{class_grid_afbfece3a3d96fa4e40316ad9cdf61c98}{}\label{class_grid_afbfece3a3d96fa4e40316ad9cdf61c98} 
+\index{Grid@{Grid}!is\+Occupied@{is\+Occupied}}
+\index{is\+Occupied@{is\+Occupied}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{is\+Occupied()}{isOccupied()}}
+{\footnotesize\ttfamily bool Grid\+::is\+Occupied (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy }\end{DoxyParamCaption})}
+
+
+
+Public member taking in two variables and returning a boolean value. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell Get if the cell at the x and y coordinate is occupied. \hypertarget{class_grid_af15e440bc92017e805740db43a09c034}{}\label{class_grid_af15e440bc92017e805740db43a09c034} 
+\index{Grid@{Grid}!move@{move}}
+\index{move@{move}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Grid\+::move (\begin{DoxyParamCaption}\item[{uint16}]{i\+OldX,  }\item[{uint16}]{i\+OldY,  }\item[{uint16}]{i\+NewX,  }\item[{uint16}]{i\+NewY }\end{DoxyParamCaption})}
+
+
+
+Public member takeing in four variables. 
+
+/param i\+Oldx x coordinate of the old cell /param i\+Oldy y coordinate of the old cell /param i\+Newx x coordinate of the new cell /param i\+Newy y coordinate of the new cell Move something from one cell to another. \hypertarget{class_grid_a19e1e00ddf325821bc0c16de9f7799ed}{}\label{class_grid_a19e1e00ddf325821bc0c16de9f7799ed} 
+\index{Grid@{Grid}!set\+Blocked@{set\+Blocked}}
+\index{set\+Blocked@{set\+Blocked}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{set\+Blocked()}{setBlocked()}}
+{\footnotesize\ttfamily void Grid\+::set\+Blocked (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy,  }\item[{bool}]{b\+Blocked }\end{DoxyParamCaption})}
+
+
+
+Public member taking in three variables. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell /param b\+Blocked boolean for if the cell is Blocked Set the b\+Blocked vallue at x and y. \hypertarget{class_grid_a4142f2281cbb882c39514ffc3c2a59af}{}\label{class_grid_a4142f2281cbb882c39514ffc3c2a59af} 
+\index{Grid@{Grid}!set\+Occupied@{set\+Occupied}}
+\index{set\+Occupied@{set\+Occupied}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{set\+Occupied()}{setOccupied()}}
+{\footnotesize\ttfamily void Grid\+::set\+Occupied (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy,  }\item[{bool}]{b\+Occupied }\end{DoxyParamCaption})}
+
+
+
+Public member taking in three variables. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell /param b\+Occupied boolean for if the cell is occupied Set the b\+Occupied vallue at x and y. \hypertarget{class_grid_a4704642a117a8be8e9defdda92784303}{}\label{class_grid_a4704642a117a8be8e9defdda92784303} 
+\index{Grid@{Grid}!set\+Properties@{set\+Properties}}
+\index{set\+Properties@{set\+Properties}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{set\+Properties()}{setProperties()}}
+{\footnotesize\ttfamily void Grid\+::set\+Properties (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy,  }\item[{uint16}]{i\+Terrain,  }\item[{bool}]{b\+Blocking,  }\item[{bool}]{b\+Occupied }\end{DoxyParamCaption})}
+
+
+
+Public member taking in five variables. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell /param i\+Terrain terrain value of the cell /param b\+Blocking boolean for if the cell is blocking movement /param b\+Occupied boolean for if the cell is occupied Set the properties of the grid cell \hypertarget{class_grid_a3feb00999e05825bbb470bdc098e05ab}{}\label{class_grid_a3feb00999e05825bbb470bdc098e05ab} 
+\index{Grid@{Grid}!set\+Terrain@{set\+Terrain}}
+\index{set\+Terrain@{set\+Terrain}!Grid@{Grid}}
+\subsubsection{\texorpdfstring{set\+Terrain()}{setTerrain()}}
+{\footnotesize\ttfamily void Grid\+::set\+Terrain (\begin{DoxyParamCaption}\item[{uint16}]{ix,  }\item[{uint16}]{iy,  }\item[{uint16}]{i\+Terrain }\end{DoxyParamCaption})}
+
+
+
+Public member taking in three variables. 
+
+/param ix x coordinate of the cell /param iy y coordinate of the cell /param i\+Terrain terrain value of the cell Set the terrain value of the cell pertaining to the x and y coordinate. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Grid.\+h\item 
+Grid.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,157 @@
+\hypertarget{class_grid_pathing}{}\section{Grid\+Pathing Class Reference}
+\label{class_grid_pathing}\index{Grid\+Pathing@{Grid\+Pathing}}
+
+
+Class for Pathing Units on the \hyperlink{class_grid}{Grid}.  
+
+
+
+
+{\ttfamily \#include $<$Grid\+Pathing.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_grid_pathing_a015d8d2d2181c40a11fa2403c47834a8}{}\label{class_grid_pathing_a015d8d2d2181c40a11fa2403c47834a8} 
+{\bfseries Grid\+Pathing} (T\+Shared\+Ptr$<$ \hyperlink{class_grid}{Grid} $>$ g)
+\item 
+T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$ \hyperlink{class_grid_pathing_a34564759aeef0f39b6c596163530b51b}{path\+To} (uint16 x\+Init, uint16 y\+Init, uint16 x\+Final, uint16 y\+Final, uint16 max\+Step)
+\begin{DoxyCompactList}\small\item\em A public member taking in five variables returning a \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} Array. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_a0d4652be2afba5e6363af1459a8720d2}{explorer} (uint16 x, uint16 y, uint16 score, uint16 max\+Step)
+\begin{DoxyCompactList}\small\item\em A public member taking in four variables. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_aa7d6f9ce481bf8148d778419dfc5947b}{calc\+Index} (uint16 x, uint16 y)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variables and returning a variable. \end{DoxyCompactList}\item 
+bool \hyperlink{class_grid_pathing_a97cdae33476da7638fbcd45fc0595eb9}{is\+Valid\+Next\+Cell} (uint16 x, uint16 y, uint16 score, uint16 max\+Step)
+\begin{DoxyCompactList}\small\item\em A public member taking in four variables and returning a boolean value. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_a1cad627b7af6d693e2b6fbabae4a54cc}{synthesis} (uint16 x\+Init, uint16 y\+Init, uint16 x\+Final, uint16 y\+Final)
+\begin{DoxyCompactList}\small\item\em A public member taking in four variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_aa4ce89d949c8d42bf2d4eb9d77e865a8}{reset} ()
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\item 
+bool \hyperlink{class_grid_pathing_a037817191233010bfb337e78142583b3}{is\+Pathable} (uint16 x, uint16 y)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variables and returning a boolean value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$ \hyperlink{class_grid_pathing_a5f136ffddfd481828d8e3bd4bd68c469}{final\+Path}
+\begin{DoxyCompactList}\small\item\em A public array variable. \end{DoxyCompactList}\item 
+T\+Shared\+Ptr$<$ \hyperlink{class_grid}{Grid} $>$ \hyperlink{class_grid_pathing_a7dd028322c2248c079d5c9aff06389e3}{grid}
+\begin{DoxyCompactList}\small\item\em A public Pointer Array. \end{DoxyCompactList}\item 
+T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$ \hyperlink{class_grid_pathing_abe2319f19bada22c1a20e5ae544b1ed2}{pathing\+Array}
+\begin{DoxyCompactList}\small\item\em A public Pointer Array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for Pathing Units on the \hyperlink{class_grid}{Grid}. 
+
+A class that uses the \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} class to determine the closest path from one point on the grid to another. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_grid_pathing_aa7d6f9ce481bf8148d778419dfc5947b}{}\label{class_grid_pathing_aa7d6f9ce481bf8148d778419dfc5947b} 
+\index{Grid\+Pathing@{Grid\+Pathing}!calc\+Index@{calc\+Index}}
+\index{calc\+Index@{calc\+Index}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{calc\+Index()}{calcIndex()}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+::calc\+Index (\begin{DoxyParamCaption}\item[{uint16}]{x,  }\item[{uint16}]{y }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variables and returning a variable. 
+
+/param x x value of the cell /param y y value of the cell A method to calculate the index of the cell. \hypertarget{class_grid_pathing_a0d4652be2afba5e6363af1459a8720d2}{}\label{class_grid_pathing_a0d4652be2afba5e6363af1459a8720d2} 
+\index{Grid\+Pathing@{Grid\+Pathing}!explorer@{explorer}}
+\index{explorer@{explorer}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{explorer()}{explorer()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+::explorer (\begin{DoxyParamCaption}\item[{uint16}]{x,  }\item[{uint16}]{y,  }\item[{uint16}]{score,  }\item[{uint16}]{max\+Step }\end{DoxyParamCaption})}
+
+
+
+A public member taking in four variables. 
+
+/param x x value of the cell /param y y value of the cell /param score score of the path /param max\+Step the maximum number of steps any unit can take, to limit the number of cells the pathing algorithm will search for A method to recursively visits each cell of the grid in a certain path to score it and point the cells to the previous cell in the optimal path. \hypertarget{class_grid_pathing_a037817191233010bfb337e78142583b3}{}\label{class_grid_pathing_a037817191233010bfb337e78142583b3} 
+\index{Grid\+Pathing@{Grid\+Pathing}!is\+Pathable@{is\+Pathable}}
+\index{is\+Pathable@{is\+Pathable}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{is\+Pathable()}{isPathable()}}
+{\footnotesize\ttfamily bool Grid\+Pathing\+::is\+Pathable (\begin{DoxyParamCaption}\item[{uint16}]{x,  }\item[{uint16}]{y }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variables and returning a boolean value. 
+
+/param x x value of the cell /param y y value of the cell A method to deterimine whether a path can be calculated based on the x and y location of the cell. \hypertarget{class_grid_pathing_a97cdae33476da7638fbcd45fc0595eb9}{}\label{class_grid_pathing_a97cdae33476da7638fbcd45fc0595eb9} 
+\index{Grid\+Pathing@{Grid\+Pathing}!is\+Valid\+Next\+Cell@{is\+Valid\+Next\+Cell}}
+\index{is\+Valid\+Next\+Cell@{is\+Valid\+Next\+Cell}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{is\+Valid\+Next\+Cell()}{isValidNextCell()}}
+{\footnotesize\ttfamily bool Grid\+Pathing\+::is\+Valid\+Next\+Cell (\begin{DoxyParamCaption}\item[{uint16}]{x,  }\item[{uint16}]{y,  }\item[{uint16}]{score,  }\item[{uint16}]{max\+Step }\end{DoxyParamCaption})}
+
+
+
+A public member taking in four variables and returning a boolean value. 
+
+/param x x value of the cell /param y y value of the cell /param score score of the path /param max\+Step the maximum number of steps any unit can take, to limit the number of cells the pathing algorithm will search for A method to deterimine if the next cell is a valid one. \hypertarget{class_grid_pathing_a34564759aeef0f39b6c596163530b51b}{}\label{class_grid_pathing_a34564759aeef0f39b6c596163530b51b} 
+\index{Grid\+Pathing@{Grid\+Pathing}!path\+To@{path\+To}}
+\index{path\+To@{path\+To}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{path\+To()}{pathTo()}}
+{\footnotesize\ttfamily T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$ Grid\+Pathing\+::path\+To (\begin{DoxyParamCaption}\item[{uint16}]{x\+Init,  }\item[{uint16}]{y\+Init,  }\item[{uint16}]{x\+Final,  }\item[{uint16}]{y\+Final,  }\item[{uint16}]{max\+Step }\end{DoxyParamCaption})}
+
+
+
+A public member taking in five variables returning a \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} Array. 
+
+/param x\+Init x value of the starting cell /param y\+Init y value of the starting cell /param x\+Final x value of the ending cell /param y\+Final y value of the ending cell /param max\+Step the maximum number of steps any unit can take, to limit the number of cells the pathing algorithm will search for Uses recursive methods to return the final path. \hypertarget{class_grid_pathing_aa4ce89d949c8d42bf2d4eb9d77e865a8}{}\label{class_grid_pathing_aa4ce89d949c8d42bf2d4eb9d77e865a8} 
+\index{Grid\+Pathing@{Grid\+Pathing}!reset@{reset}}
+\index{reset@{reset}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member. 
+
+A method to reset the pathing array \hypertarget{class_grid_pathing_a1cad627b7af6d693e2b6fbabae4a54cc}{}\label{class_grid_pathing_a1cad627b7af6d693e2b6fbabae4a54cc} 
+\index{Grid\+Pathing@{Grid\+Pathing}!synthesis@{synthesis}}
+\index{synthesis@{synthesis}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{synthesis()}{synthesis()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+::synthesis (\begin{DoxyParamCaption}\item[{uint16}]{x\+Init,  }\item[{uint16}]{y\+Init,  }\item[{uint16}]{x\+Final,  }\item[{uint16}]{y\+Final }\end{DoxyParamCaption})}
+
+
+
+A public member taking in four variables. 
+
+/param x\+Init x value of the starting cell /param y\+Init y value of the starting cell /param x\+Final x value of the ending cell /param y\+Final y value of the ending cell A method that takes the now filled matrix of scores and \char`\"{}connected nodes\char`\"{} (cell objects which has a valid lastX and lastY) and traces out a path from the origin to a certain destination cell. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_grid_pathing_a5f136ffddfd481828d8e3bd4bd68c469}{}\label{class_grid_pathing_a5f136ffddfd481828d8e3bd4bd68c469} 
+\index{Grid\+Pathing@{Grid\+Pathing}!final\+Path@{final\+Path}}
+\index{final\+Path@{final\+Path}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{final\+Path}{finalPath}}
+{\footnotesize\ttfamily T\+Array$<$\hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell}$>$ Grid\+Pathing\+::final\+Path}
+
+
+
+A public array variable. 
+
+Array that contains cells that are in the final path between the two points. \hypertarget{class_grid_pathing_a7dd028322c2248c079d5c9aff06389e3}{}\label{class_grid_pathing_a7dd028322c2248c079d5c9aff06389e3} 
+\index{Grid\+Pathing@{Grid\+Pathing}!grid@{grid}}
+\index{grid@{grid}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{grid}{grid}}
+{\footnotesize\ttfamily T\+Shared\+Ptr$<$\hyperlink{class_grid}{Grid}$>$ Grid\+Pathing\+::grid}
+
+
+
+A public Pointer Array. 
+
+The grid that pathing is done on. \hypertarget{class_grid_pathing_abe2319f19bada22c1a20e5ae544b1ed2}{}\label{class_grid_pathing_abe2319f19bada22c1a20e5ae544b1ed2} 
+\index{Grid\+Pathing@{Grid\+Pathing}!pathing\+Array@{pathing\+Array}}
+\index{pathing\+Array@{pathing\+Array}!Grid\+Pathing@{Grid\+Pathing}}
+\subsubsection{\texorpdfstring{pathing\+Array}{pathingArray}}
+{\footnotesize\ttfamily T\+Array$<$\hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell}$>$ Grid\+Pathing\+::pathing\+Array}
+
+
+
+A public Pointer Array. 
+
+The array of cells used to path. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Grid\+Pathing.\+h\item 
+Grid\+Pathing.\+cpp\end{DoxyCompactItemize}

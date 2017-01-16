@@ -1,0 +1,147 @@
+\hypertarget{class_a_x_a3_player_controller}{}\section{A\+X\+A3\+Player\+Controller Class Reference}
+\label{class_a_x_a3_player_controller}\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+
+
+Class for the Controller.  
+
+
+
+
+{\ttfamily \#include $<$X\+A3\+Player\+Controller.\+h$>$}
+
+Inheritance diagram for A\+X\+A3\+Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_x_a3_player_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_a_x_a3_player_controller_aa419797ca4c60bb27a033a307c5ccbee}{Set\+New\+Move\+Destination} (const F\+Vector Dest\+Location)
+\begin{DoxyCompactList}\small\item\em Normal Member taking a constand F\+Vector. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_x_a3_player_controller_ab559e4393ede764953acd4c868a41eef}{On\+Set\+Destination\+Pressed} ()
+\begin{DoxyCompactList}\small\item\em Normal Member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_x_a3_player_controller_a08d57685ee2b9f7f4d347707113f77c1}{On\+Set\+Destination\+Released} ()
+\begin{DoxyCompactList}\small\item\em Normal Member. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_a_x_a3_player_controller_a4517394eaa773561191813ea4c2959b6}{Player\+Tick} (float Delta\+Time) override
+\begin{DoxyCompactList}\small\item\em Inherited Member taking in a float. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_x_a3_player_controller_ae1a9e48d7cb021a81ea0357b3be6afa6}{Setup\+Input\+Component} () override
+\begin{DoxyCompactList}\small\item\em Inherited Member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_x_a3_player_controller_a799e0ef8edbdb796c7b5286a7e53bac6}{On\+Reset\+VR} ()
+\item 
+void \hyperlink{class_a_x_a3_player_controller_a14779b01d600fdb7b9f4440e06e8288d}{Move\+To\+Mouse\+Cursor} ()
+\begin{DoxyCompactList}\small\item\em Normal Member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_x_a3_player_controller_a491c620eeaa2db69f8fb4e5a2b1c5cb3}{Move\+To\+Touch\+Location} (const E\+Touch\+Index\+::\+Type Finger\+Index, const F\+Vector Location)
+\begin{DoxyCompactList}\small\item\em Normal Member. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint32 \hyperlink{class_a_x_a3_player_controller_af4d6c8b0909b0bc00e5b1df2437353bb}{b\+Move\+To\+Mouse\+Cursor}\+: 1
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for the Controller. 
+
+A class that contains relevant functions to controll the play character. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_x_a3_player_controller_a14779b01d600fdb7b9f4440e06e8288d}{}\label{class_a_x_a3_player_controller_a14779b01d600fdb7b9f4440e06e8288d} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!Move\+To\+Mouse\+Cursor@{Move\+To\+Mouse\+Cursor}}
+\index{Move\+To\+Mouse\+Cursor@{Move\+To\+Mouse\+Cursor}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{Move\+To\+Mouse\+Cursor()}{MoveToMouseCursor()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+Move\+To\+Mouse\+Cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Normal Member. 
+
+Navigate player to the current mouse cursor location. \hypertarget{class_a_x_a3_player_controller_a491c620eeaa2db69f8fb4e5a2b1c5cb3}{}\label{class_a_x_a3_player_controller_a491c620eeaa2db69f8fb4e5a2b1c5cb3} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!Move\+To\+Touch\+Location@{Move\+To\+Touch\+Location}}
+\index{Move\+To\+Touch\+Location@{Move\+To\+Touch\+Location}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{Move\+To\+Touch\+Location()}{MoveToTouchLocation()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+Move\+To\+Touch\+Location (\begin{DoxyParamCaption}\item[{const E\+Touch\+Index\+::\+Type}]{Finger\+Index,  }\item[{const F\+Vector}]{Location }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Normal Member. 
+
+Navigate player to the current touch location. \hypertarget{class_a_x_a3_player_controller_a799e0ef8edbdb796c7b5286a7e53bac6}{}\label{class_a_x_a3_player_controller_a799e0ef8edbdb796c7b5286a7e53bac6} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!On\+Reset\+VR@{On\+Reset\+VR}}
+\index{On\+Reset\+VR@{On\+Reset\+VR}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{On\+Reset\+V\+R()}{OnResetVR()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+On\+Reset\+VR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Resets H\+MD orientation in VR. \hypertarget{class_a_x_a3_player_controller_ab559e4393ede764953acd4c868a41eef}{}\label{class_a_x_a3_player_controller_ab559e4393ede764953acd4c868a41eef} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!On\+Set\+Destination\+Pressed@{On\+Set\+Destination\+Pressed}}
+\index{On\+Set\+Destination\+Pressed@{On\+Set\+Destination\+Pressed}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{On\+Set\+Destination\+Pressed()}{OnSetDestinationPressed()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+On\+Set\+Destination\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Normal Member. 
+
+Input handlers for Set\+Destination action. \hypertarget{class_a_x_a3_player_controller_a08d57685ee2b9f7f4d347707113f77c1}{}\label{class_a_x_a3_player_controller_a08d57685ee2b9f7f4d347707113f77c1} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!On\+Set\+Destination\+Released@{On\+Set\+Destination\+Released}}
+\index{On\+Set\+Destination\+Released@{On\+Set\+Destination\+Released}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{On\+Set\+Destination\+Released()}{OnSetDestinationReleased()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+On\+Set\+Destination\+Released (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Normal Member. 
+
+Input handlers for Set\+Destination action. \hypertarget{class_a_x_a3_player_controller_a4517394eaa773561191813ea4c2959b6}{}\label{class_a_x_a3_player_controller_a4517394eaa773561191813ea4c2959b6} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!Player\+Tick@{Player\+Tick}}
+\index{Player\+Tick@{Player\+Tick}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{Player\+Tick()}{PlayerTick()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+Player\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Inherited Member taking in a float. 
+
+Tick method for refresh. \hypertarget{class_a_x_a3_player_controller_aa419797ca4c60bb27a033a307c5ccbee}{}\label{class_a_x_a3_player_controller_aa419797ca4c60bb27a033a307c5ccbee} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!Set\+New\+Move\+Destination@{Set\+New\+Move\+Destination}}
+\index{Set\+New\+Move\+Destination@{Set\+New\+Move\+Destination}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{Set\+New\+Move\+Destination()}{SetNewMoveDestination()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+Set\+New\+Move\+Destination (\begin{DoxyParamCaption}\item[{const F\+Vector}]{Dest\+Location }\end{DoxyParamCaption})}
+
+
+
+Normal Member taking a constand F\+Vector. 
+
+/param Dest\+Location vector for destination Navigate player to the given world location. \hypertarget{class_a_x_a3_player_controller_ae1a9e48d7cb021a81ea0357b3be6afa6}{}\label{class_a_x_a3_player_controller_ae1a9e48d7cb021a81ea0357b3be6afa6} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!Setup\+Input\+Component@{Setup\+Input\+Component}}
+\index{Setup\+Input\+Component@{Setup\+Input\+Component}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{Setup\+Input\+Component()}{SetupInputComponent()}}
+{\footnotesize\ttfamily void A\+X\+A3\+Player\+Controller\+::\+Setup\+Input\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Inherited Member. 
+
+Set up inputs. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_a_x_a3_player_controller_af4d6c8b0909b0bc00e5b1df2437353bb}{}\label{class_a_x_a3_player_controller_af4d6c8b0909b0bc00e5b1df2437353bb} 
+\index{A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}!b\+Move\+To\+Mouse\+Cursor@{b\+Move\+To\+Mouse\+Cursor}}
+\index{b\+Move\+To\+Mouse\+Cursor@{b\+Move\+To\+Mouse\+Cursor}!A\+X\+A3\+Player\+Controller@{A\+X\+A3\+Player\+Controller}}
+\subsubsection{\texorpdfstring{b\+Move\+To\+Mouse\+Cursor}{bMoveToMouseCursor}}
+{\footnotesize\ttfamily uint32 A\+X\+A3\+Player\+Controller\+::b\+Move\+To\+Mouse\+Cursor\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+boolean for whether the controlled character should navigate to the mouse cursor. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+X\+A3\+Player\+Controller.\+h\item 
+X\+A3\+Player\+Controller.\+cpp\end{DoxyCompactItemize}

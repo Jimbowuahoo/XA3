@@ -1,0 +1,266 @@
+\hypertarget{class_a_unreal_grid}{}\section{A\+Unreal\+Grid Class Reference}
+\label{class_a_unreal_grid}\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+
+
+Class for the grid, interfacing with Unreal.  
+
+
+
+
+{\ttfamily \#include $<$Unreal\+Grid.\+h$>$}
+
+Inheritance diagram for A\+Unreal\+Grid\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_unreal_grid}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_a_unreal_grid_a9f2e41aff1d7918e7bf46a93432ced89}{Begin\+Play} () override
+\begin{DoxyCompactList}\small\item\em An inherited member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_ac418fa2ea58ef9c00939f441ccdff8d4}{Square\+Activate} (uint32 x, uint32 y)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variable. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_ab6dd0588dcf8892df18183d9eae54036}{Highlight} (uint32 x, uint32 y)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variable. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_a18fad8e1af79ff004c54c0a05b171f01}{Dim} (uint32 x, uint32 y)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variable. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_a4de19b986295141d8a1b31ef872a2f43}{Show\+Path} (T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$ path)
+\begin{DoxyCompactList}\small\item\em A public member taking in a variable. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_a7c1328560c61da12f8e515f149457999}{Set\+Max\+Step} (uint32 m\+Step)
+\begin{DoxyCompactList}\small\item\em A public member taking in a variable. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unreal_grid_a53493ad37970ddcdf437475740fa73ac}{Clear\+Highlight} ()
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Scene\+Component $\ast$ \hyperlink{class_a_unreal_grid_adc32753015f3681249c9effd0babf72d}{Get\+Dummy\+Root} () const
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Text\+Render\+Component $\ast$ \hyperlink{class_a_unreal_grid_a2b699473afc36a77c3719002ae37bd9d}{Get\+Score\+Text} () const
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_a_unreal_grid_a3c7f942498aac5d56e594f4c71be239b}{active\+Square}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unreal_grid_ab968c97a7b73c4c4a78752810340db86}{activeX}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unreal_grid_a112aaee76dadd64d889a14d1fc25cb2a}{activeY}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+uint32 \hyperlink{class_a_unreal_grid_a17290d30345faf244ad5fabde26046ac}{max\+Step}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+T\+Array$<$ \hyperlink{class_a_grid_block}{A\+Grid\+Block} $\ast$ $>$ \hyperlink{class_a_unreal_grid_a190e16b669bb5cb44c29765ba772c3f5}{cells}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unreal_grid_aff61595921013715b51b18bbd5d624ea}{Length}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unreal_grid_a7674836c06f6c4022f98bdecd72cb89c}{Height}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+float \hyperlink{class_a_unreal_grid_ab7f6c7b674ee42393ddad1a070e94ead}{Block\+Spacing}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class \hyperlink{class_grid}{Grid} $\ast$ \hyperlink{class_a_unreal_grid_a1bc505d6a6df9d8d57db4d92bf7a0636}{Grid\+Model}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class \hyperlink{class_grid_pathing}{Grid\+Pathing} $\ast$ \hyperlink{class_a_unreal_grid_a5a108c220c0bfded8c7312aabbbcba82}{Grid\+Path}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for the grid, interfacing with Unreal. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_unreal_grid_a9f2e41aff1d7918e7bf46a93432ced89}{}\label{class_a_unreal_grid_a9f2e41aff1d7918e7bf46a93432ced89} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Begin\+Play@{Begin\+Play}}
+\index{Begin\+Play@{Begin\+Play}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Begin\+Play()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+An inherited member. 
+
+Begin A\+Actor Interface. \hypertarget{class_a_unreal_grid_a53493ad37970ddcdf437475740fa73ac}{}\label{class_a_unreal_grid_a53493ad37970ddcdf437475740fa73ac} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Clear\+Highlight@{Clear\+Highlight}}
+\index{Clear\+Highlight@{Clear\+Highlight}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Clear\+Highlight()}{ClearHighlight()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Clear\+Highlight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member. 
+
+Clears all highlights. \hypertarget{class_a_unreal_grid_a18fad8e1af79ff004c54c0a05b171f01}{}\label{class_a_unreal_grid_a18fad8e1af79ff004c54c0a05b171f01} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Dim@{Dim}}
+\index{Dim@{Dim}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Dim()}{Dim()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Dim (\begin{DoxyParamCaption}\item[{uint32}]{x,  }\item[{uint32}]{y }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variable. 
+
+/param x x coordinate of the cell block /param y y coordinate of the cell block Dims the block on the x y coordinate. \hypertarget{class_a_unreal_grid_adc32753015f3681249c9effd0babf72d}{}\label{class_a_unreal_grid_adc32753015f3681249c9effd0babf72d} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Get\+Dummy\+Root@{Get\+Dummy\+Root}}
+\index{Get\+Dummy\+Root@{Get\+Dummy\+Root}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Get\+Dummy\+Root()}{GetDummyRoot()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Scene\+Component$\ast$ A\+Unreal\+Grid\+::\+Get\+Dummy\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A public member. 
+
+Returns Dummy\+Root subobject. \hypertarget{class_a_unreal_grid_a2b699473afc36a77c3719002ae37bd9d}{}\label{class_a_unreal_grid_a2b699473afc36a77c3719002ae37bd9d} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Get\+Score\+Text@{Get\+Score\+Text}}
+\index{Get\+Score\+Text@{Get\+Score\+Text}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Get\+Score\+Text()}{GetScoreText()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Text\+Render\+Component$\ast$ A\+Unreal\+Grid\+::\+Get\+Score\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A public member. 
+
+Returns Score\+Text subobject. \hypertarget{class_a_unreal_grid_ab6dd0588dcf8892df18183d9eae54036}{}\label{class_a_unreal_grid_ab6dd0588dcf8892df18183d9eae54036} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Highlight@{Highlight}}
+\index{Highlight@{Highlight}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Highlight()}{Highlight()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Highlight (\begin{DoxyParamCaption}\item[{uint32}]{x,  }\item[{uint32}]{y }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variable. 
+
+/param x x coordinate of the cell block /param y y coordinate of the cell block Hightlights the block on the x y coordinate. \hypertarget{class_a_unreal_grid_a7c1328560c61da12f8e515f149457999}{}\label{class_a_unreal_grid_a7c1328560c61da12f8e515f149457999} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Set\+Max\+Step@{Set\+Max\+Step}}
+\index{Set\+Max\+Step@{Set\+Max\+Step}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Set\+Max\+Step()}{SetMaxStep()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Set\+Max\+Step (\begin{DoxyParamCaption}\item[{uint32}]{m\+Step }\end{DoxyParamCaption})}
+
+
+
+A public member taking in a variable. 
+
+/param m\+Step the number to set the max\+Step to Sets max\+Step variable. \hypertarget{class_a_unreal_grid_a4de19b986295141d8a1b31ef872a2f43}{}\label{class_a_unreal_grid_a4de19b986295141d8a1b31ef872a2f43} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Show\+Path@{Show\+Path}}
+\index{Show\+Path@{Show\+Path}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Show\+Path()}{ShowPath()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Show\+Path (\begin{DoxyParamCaption}\item[{T\+Array$<$ \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} $>$}]{path }\end{DoxyParamCaption})}
+
+
+
+A public member taking in a variable. 
+
+/param path array that contains the path, in cells Highlights a Path. \hypertarget{class_a_unreal_grid_ac418fa2ea58ef9c00939f441ccdff8d4}{}\label{class_a_unreal_grid_ac418fa2ea58ef9c00939f441ccdff8d4} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Square\+Activate@{Square\+Activate}}
+\index{Square\+Activate@{Square\+Activate}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Square\+Activate()}{SquareActivate()}}
+{\footnotesize\ttfamily void A\+Unreal\+Grid\+::\+Square\+Activate (\begin{DoxyParamCaption}\item[{uint32}]{x,  }\item[{uint32}]{y }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variable. 
+
+/param x x coordinate of the cell block /param y y coordinate of the cell block Handles the block being clicked. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_a_unreal_grid_a3c7f942498aac5d56e594f4c71be239b}{}\label{class_a_unreal_grid_a3c7f942498aac5d56e594f4c71be239b} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!active\+Square@{active\+Square}}
+\index{active\+Square@{active\+Square}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{active\+Square}{activeSquare}}
+{\footnotesize\ttfamily bool A\+Unreal\+Grid\+::active\+Square}
+
+
+
+A public variable. 
+
+has a square been selected \hypertarget{class_a_unreal_grid_ab968c97a7b73c4c4a78752810340db86}{}\label{class_a_unreal_grid_ab968c97a7b73c4c4a78752810340db86} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!activeX@{activeX}}
+\index{activeX@{activeX}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{activeX}{activeX}}
+{\footnotesize\ttfamily int32 A\+Unreal\+Grid\+::activeX}
+
+
+
+A public variable. 
+
+Active\+Square x coordinate. \hypertarget{class_a_unreal_grid_a112aaee76dadd64d889a14d1fc25cb2a}{}\label{class_a_unreal_grid_a112aaee76dadd64d889a14d1fc25cb2a} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!activeY@{activeY}}
+\index{activeY@{activeY}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{activeY}{activeY}}
+{\footnotesize\ttfamily int32 A\+Unreal\+Grid\+::activeY}
+
+
+
+A public variable. 
+
+Active\+Square y coordinate. \hypertarget{class_a_unreal_grid_ab7f6c7b674ee42393ddad1a070e94ead}{}\label{class_a_unreal_grid_ab7f6c7b674ee42393ddad1a070e94ead} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Block\+Spacing@{Block\+Spacing}}
+\index{Block\+Spacing@{Block\+Spacing}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Block\+Spacing}{BlockSpacing}}
+{\footnotesize\ttfamily float A\+Unreal\+Grid\+::\+Block\+Spacing}
+
+
+
+A public variable. 
+
+Spacing of blocks. \hypertarget{class_a_unreal_grid_a190e16b669bb5cb44c29765ba772c3f5}{}\label{class_a_unreal_grid_a190e16b669bb5cb44c29765ba772c3f5} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!cells@{cells}}
+\index{cells@{cells}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{cells}{cells}}
+{\footnotesize\ttfamily T\+Array$<$\hyperlink{class_a_grid_block}{A\+Grid\+Block}$\ast$$>$ A\+Unreal\+Grid\+::cells}
+
+
+
+A public variable. 
+
+T\+Array containing all Grid\+Blocks. \hypertarget{class_a_unreal_grid_a1bc505d6a6df9d8d57db4d92bf7a0636}{}\label{class_a_unreal_grid_a1bc505d6a6df9d8d57db4d92bf7a0636} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Grid\+Model@{Grid\+Model}}
+\index{Grid\+Model@{Grid\+Model}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Grid\+Model}{GridModel}}
+{\footnotesize\ttfamily class \hyperlink{class_grid}{Grid}$\ast$ A\+Unreal\+Grid\+::\+Grid\+Model}
+
+
+
+A public variable. 
+
+Model grid. \hypertarget{class_a_unreal_grid_a5a108c220c0bfded8c7312aabbbcba82}{}\label{class_a_unreal_grid_a5a108c220c0bfded8c7312aabbbcba82} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Grid\+Path@{Grid\+Path}}
+\index{Grid\+Path@{Grid\+Path}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Grid\+Path}{GridPath}}
+{\footnotesize\ttfamily class \hyperlink{class_grid_pathing}{Grid\+Pathing}$\ast$ A\+Unreal\+Grid\+::\+Grid\+Path}
+
+
+
+A public variable. 
+
+Pathing \hyperlink{class_grid}{Grid}. \hypertarget{class_a_unreal_grid_a7674836c06f6c4022f98bdecd72cb89c}{}\label{class_a_unreal_grid_a7674836c06f6c4022f98bdecd72cb89c} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Height@{Height}}
+\index{Height@{Height}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Height}{Height}}
+{\footnotesize\ttfamily int32 A\+Unreal\+Grid\+::\+Height}
+
+
+
+A public variable. 
+
+Number of blocks along height of grid \hypertarget{class_a_unreal_grid_aff61595921013715b51b18bbd5d624ea}{}\label{class_a_unreal_grid_aff61595921013715b51b18bbd5d624ea} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!Length@{Length}}
+\index{Length@{Length}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{Length}{Length}}
+{\footnotesize\ttfamily int32 A\+Unreal\+Grid\+::\+Length}
+
+
+
+A public variable. 
+
+Number of blocks along length of grid. \hypertarget{class_a_unreal_grid_a17290d30345faf244ad5fabde26046ac}{}\label{class_a_unreal_grid_a17290d30345faf244ad5fabde26046ac} 
+\index{A\+Unreal\+Grid@{A\+Unreal\+Grid}!max\+Step@{max\+Step}}
+\index{max\+Step@{max\+Step}!A\+Unreal\+Grid@{A\+Unreal\+Grid}}
+\subsubsection{\texorpdfstring{max\+Step}{maxStep}}
+{\footnotesize\ttfamily uint32 A\+Unreal\+Grid\+::max\+Step}
+
+
+
+A public variable. 
+
+Maximum number of steps that can be taken. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Unreal\+Grid.\+h\item 
+Unreal\+Grid.\+cpp\end{DoxyCompactItemize}

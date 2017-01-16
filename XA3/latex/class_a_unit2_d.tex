@@ -1,0 +1,818 @@
+\hypertarget{class_a_unit2_d}{}\section{A\+Unit2D Class Reference}
+\label{class_a_unit2_d}\index{A\+Unit2D@{A\+Unit2D}}
+
+
+Class for Units in the game.  
+
+
+
+
+{\ttfamily \#include $<$Unit2\+D.\+h$>$}
+
+Inheritance diagram for A\+Unit2D\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_unit2_d}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_a_unit2_d_a0251a37e303fe179ac987203df3b4f2f}{Begin\+Play} () override
+\begin{DoxyCompactList}\small\item\em Inherited Member. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_unit2_d_aabcd72dc2ba9d71a56e58148382607b2}{Tick} (float Delta\+Seconds) override
+\begin{DoxyCompactList}\small\item\em Inherited Member. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_unit2_d_ae5ce5587eb783da80ed36f7b55724a56}{Setup\+Player\+Input\+Component} (class U\+Input\+Component $\ast$Input\+Component) override
+\begin{DoxyCompactList}\small\item\em Inherited Member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a6a1a7ef96c7efebf5a7f50b011b7a6c0}{Handle\+Left\+Click} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a96e805c919d9088872a5c8945a9ca31f}{cancel} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+\hyperlink{class_a_unit2_d}{A\+Unit2D} $\ast$ \hyperlink{class_a_unit2_d_ab9a04722aeaa02b1d656c2ea7c6bdad2}{Find\+Focused\+Target} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning a Unit2D object. \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_unit2_d_a6426fb6d603a376b3808d558cf07c17e}{get\+Side} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a5f1d562d11394d02ad291e7cdfaa159b}{get\+HP} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning an integer value. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a0e21fbf4b83553f9910b4dd9a28ba2fb}{get\+A\+CC} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning an integer value. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_aa66921015cf3b796869bd23fddcc162b}{get\+R\+FL} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning an integer value. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_adbe5785b68849e82ab11c48f86df64e7}{get\+TU} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning an integer value. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a484b69b741bb37babd27306fbfc5990b}{get\+B\+RV} ()
+\begin{DoxyCompactList}\small\item\em A normal member returning an integer value. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a60a8c2a02713d1fb838757a2b74c0d5b}{set\+HP} (int32 hp)
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a6c9367b81fabd482ded876c47e006d35}{set\+A\+CC} (int32 acc)
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a1f444ba247643672bec2a87beec14fb0}{set\+R\+FL} (int32 rfl)
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_ac7e18514213510c0077518ab1052340a}{set\+TU} (int32 tu)
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a6a1ed9c8a68c9954bb88c58539250f87}{set\+B\+RV} (int32 brv)
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a8567eec6dc49533041735e125cace6e2}{move} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+\hypertarget{class_a_unit2_d_a00227806480536a3b6f34eed9529e173}{}\label{class_a_unit2_d_a00227806480536a3b6f34eed9529e173} 
+void {\bfseries hit} ()
+\item 
+void \hyperlink{class_a_unit2_d_a3a66da88663696462e73a5933c0d1032}{change\+State} (E\+Unit\+State \hyperlink{class_a_unit2_d_a33b3a09dc710021ce343630e828ebb1b}{state})
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a6631cea7c02eb12361dc14439b942f70}{frag\+Grenade} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_ae12beff66c2558df2ca19ae222900988}{smoke\+Grenade} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_af14e1b38ce6238bb9343eca175c15f29}{flashbang\+Grenade} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a9ba62a68377a9584eee863d76079943b}{flash} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a895149436f783d3c0bbfe80556196438}{reset\+Frag} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a80ad176a4ed566c1fb18df231290c8b4}{reset\+Smoke} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a509be02c409aec4f9db70eedc954dec8}{reset\+Flashbang} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a6cbf098b221157bb99dc278b3c8dab70}{shoot} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a4e21cbdac89dcc72f670ad77dfc474cb}{reload} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_unit2_d_aec8aadc1698c1a0e26d76ce97b2515d0}{determine\+Hit} (\hyperlink{class_a_unit2_d}{A\+Unit2D} $\ast$target)
+\begin{DoxyCompactList}\small\item\em A normal member taking an argument and returning a boolean value. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a383ec068bf651417a27c4e7f9a44ce1c}{take\+Damage} (int damage)
+\begin{DoxyCompactList}\small\item\em A normal member taking an argument. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_aa98e4af27fd175f81fc9761e4b139caf}{stun} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a141b33f9f1c9409e645960903ccb714f}{reset\+TU} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_af13c789a87a18daa455387f44d84d333}{set\+Percent\+Health} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a0f93d2f4547813149e5b46530dcaba67}{set\+Percent\+TU} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_a30c4c53f8789064bb9fc7b7d8703ae35}{set\+Percent\+B\+RV} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_ae1d7c09760d899ca25e96a9573b2ddf0}{check\+Freakout} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_aa0a382d42b3024c460e549054b158803}{run} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_unit2_d_ae1e36f7fa10bf392c4ceb150fd6addc8}{hunker\+Down} ()
+\begin{DoxyCompactList}\small\item\em A normal member. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+E\+Unit\+State \hyperlink{class_a_unit2_d_a33b3a09dc710021ce343630e828ebb1b}{state} = E\+Unit\+State\+::\+U\+S\+\_\+\+Idle
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Paper\+Sprite\+Component $\ast$ \hyperlink{class_a_unit2_d_a03b2c6b3e63c261e81b5a193ed0d4acd}{sprite\+Comp}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+class U\+Paper\+Flipbook $\ast$ \hyperlink{class_a_unit2_d_a1c7ee8387eeb37c2c1f735b61135865d}{Idle\+Animation}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_unit2_d_ab916af70c15214293b1f868ef61538e2}{is\+Player\+One} = true
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a251c25f80c0fe087b892d82baf8cfa0d}{health\+Point} = 20
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a7c93157ba7198cdb15bde2e3b649988d}{max\+Health} = 40
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+float \hyperlink{class_a_unit2_d_a731e52449dba6368b509b78ac95c0dc0}{percent\+Health} = \hyperlink{class_a_unit2_d_a251c25f80c0fe087b892d82baf8cfa0d}{health\+Point}$\ast$1.\+0/\hyperlink{class_a_unit2_d_a7c93157ba7198cdb15bde2e3b649988d}{max\+Health}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a24f6252522a9d97f9ea8ea9cbf6cca69}{current\+Time\+Unit} = 50
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a0a8041a5fc46bd09fed79303fbcd3ce5}{max\+Time\+Unit} = 50
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+float \hyperlink{class_a_unit2_d_a45d8a7f3f28c1a641dd4124c4b7ba272}{percent\+TU} = \hyperlink{class_a_unit2_d_a24f6252522a9d97f9ea8ea9cbf6cca69}{current\+Time\+Unit}$\ast$1.\+0 / \hyperlink{class_a_unit2_d_a0a8041a5fc46bd09fed79303fbcd3ce5}{max\+Time\+Unit}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a639a503e506215b11c81167154bf9bfd}{accuracy} = 40
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a178510f321f19d1fa8b19b1a16b7dcfb}{reflex} = 55
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a5e26bf8a80a9363d3538b1e1f675fb61}{max\+Bravery} = 65
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_aee9f4f0703e027df353d51811befb1c3}{current\+Bravery} = 65
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+float \hyperlink{class_a_unit2_d_a837bd3a0faaf2ebd2796de9a16da8fa0}{percent\+Brv} = \hyperlink{class_a_unit2_d_aee9f4f0703e027df353d51811befb1c3}{current\+Bravery}$\ast$1.\+0/ \hyperlink{class_a_unit2_d_a5e26bf8a80a9363d3538b1e1f675fb61}{max\+Bravery}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a7947b8f9bed2225ed223f37f21820960}{clip\+Size} = 12
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a7f23a4544c24d5fd0489f2420a7b3eb4}{bullet} = \hyperlink{class_a_unit2_d_a7947b8f9bed2225ed223f37f21820960}{clip\+Size}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_ad2d855d2c78d2e1918b84df6ae4da192}{frag} = 2
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a898e4c6cf4c37c9a1b84d73a7fb30c6b}{flashbang} = 2
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a6cfd32ab7bfaa5dbc64defd1f74bf459}{smoke} = 2
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_a583df0bd3be284fddf24c1c627053767}{weapon\+Dmg} = 20
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+float \hyperlink{class_a_unit2_d_a6945ed1b7f56335e3c42d414f9e9b243}{range\+Falloff}
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\item 
+int32 \hyperlink{class_a_unit2_d_ab8a5bca2e21f1c992b887646d19a7025}{weapon\+Cost} = 32
+\begin{DoxyCompactList}\small\item\em A protected variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for Units in the game. 
+
+An Unreal Paper2D class that defines Units in the game. The class contains Unit Statistics such as HP, TU, R\+FL, A\+CC, and B\+RV, as well as weapon statistics such as damage and ammo count. The Unit2D class also inherits unreal functions for characters and contains functions to handle interactions with other Unit2D objects. Unit2D also handles controls for its own object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_unit2_d_a0251a37e303fe179ac987203df3b4f2f}{}\label{class_a_unit2_d_a0251a37e303fe179ac987203df3b4f2f} 
+\index{A\+Unit2D@{A\+Unit2D}!Begin\+Play@{Begin\+Play}}
+\index{Begin\+Play@{Begin\+Play}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Begin\+Play()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Inherited Member. 
+
+Inherited Begin, called when the game starts or when spawned \hypertarget{class_a_unit2_d_a96e805c919d9088872a5c8945a9ca31f}{}\label{class_a_unit2_d_a96e805c919d9088872a5c8945a9ca31f} 
+\index{A\+Unit2D@{A\+Unit2D}!cancel@{cancel}}
+\index{cancel@{cancel}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{cancel()}{cancel()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+method for resetting the palyer state back to idle \hypertarget{class_a_unit2_d_a3a66da88663696462e73a5933c0d1032}{}\label{class_a_unit2_d_a3a66da88663696462e73a5933c0d1032} 
+\index{A\+Unit2D@{A\+Unit2D}!change\+State@{change\+State}}
+\index{change\+State@{change\+State}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{change\+State()}{changeState()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::change\+State (\begin{DoxyParamCaption}\item[{E\+Unit\+State}]{state }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & new unit state to set to A method to change the current state of the unit. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_ae1d7c09760d899ca25e96a9573b2ddf0}{}\label{class_a_unit2_d_ae1d7c09760d899ca25e96a9573b2ddf0} 
+\index{A\+Unit2D@{A\+Unit2D}!check\+Freakout@{check\+Freakout}}
+\index{check\+Freakout@{check\+Freakout}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{check\+Freakout()}{checkFreakout()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::check\+Freakout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Check if the unit freaksout based on bravery score. \hypertarget{class_a_unit2_d_aec8aadc1698c1a0e26d76ce97b2515d0}{}\label{class_a_unit2_d_aec8aadc1698c1a0e26d76ce97b2515d0} 
+\index{A\+Unit2D@{A\+Unit2D}!determine\+Hit@{determine\+Hit}}
+\index{determine\+Hit@{determine\+Hit}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{determine\+Hit()}{determineHit()}}
+{\footnotesize\ttfamily bool A\+Unit2\+D\+::determine\+Hit (\begin{DoxyParamCaption}\item[{\hyperlink{class_a_unit2_d}{A\+Unit2D} $\ast$}]{target }\end{DoxyParamCaption})}
+
+
+
+A normal member taking an argument and returning a boolean value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target} & pointer to another Unit2D object Determine if an attack will hit the target. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_ab9a04722aeaa02b1d656c2ea7c6bdad2}{}\label{class_a_unit2_d_ab9a04722aeaa02b1d656c2ea7c6bdad2} 
+\index{A\+Unit2D@{A\+Unit2D}!Find\+Focused\+Target@{Find\+Focused\+Target}}
+\index{Find\+Focused\+Target@{Find\+Focused\+Target}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Find\+Focused\+Target()}{FindFocusedTarget()}}
+{\footnotesize\ttfamily \hyperlink{class_a_unit2_d}{A\+Unit2D} $\ast$ A\+Unit2\+D\+::\+Find\+Focused\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning a Unit2D object. 
+
+method for returning a Unit2D object that has been moused over \hypertarget{class_a_unit2_d_a9ba62a68377a9584eee863d76079943b}{}\label{class_a_unit2_d_a9ba62a68377a9584eee863d76079943b} 
+\index{A\+Unit2D@{A\+Unit2D}!flash@{flash}}
+\index{flash@{flash}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{flash()}{flash()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::flash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+A method for handling the effects of a flashbang. \hypertarget{class_a_unit2_d_af14e1b38ce6238bb9343eca175c15f29}{}\label{class_a_unit2_d_af14e1b38ce6238bb9343eca175c15f29} 
+\index{A\+Unit2D@{A\+Unit2D}!flashbang\+Grenade@{flashbang\+Grenade}}
+\index{flashbang\+Grenade@{flashbang\+Grenade}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{flashbang\+Grenade()}{flashbangGrenade()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::flashbang\+Grenade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+A method for handling the action of throwing a Flashbang grenade. \hypertarget{class_a_unit2_d_a6631cea7c02eb12361dc14439b942f70}{}\label{class_a_unit2_d_a6631cea7c02eb12361dc14439b942f70} 
+\index{A\+Unit2D@{A\+Unit2D}!frag\+Grenade@{frag\+Grenade}}
+\index{frag\+Grenade@{frag\+Grenade}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{frag\+Grenade()}{fragGrenade()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::frag\+Grenade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+A method for handling the action of throwing a frag grenade. \hypertarget{class_a_unit2_d_a0e21fbf4b83553f9910b4dd9a28ba2fb}{}\label{class_a_unit2_d_a0e21fbf4b83553f9910b4dd9a28ba2fb} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+A\+CC@{get\+A\+CC}}
+\index{get\+A\+CC@{get\+A\+CC}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+A\+C\+C()}{getACC()}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::get\+A\+CC (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning an integer value. 
+
+getter for accuracy. \hypertarget{class_a_unit2_d_a484b69b741bb37babd27306fbfc5990b}{}\label{class_a_unit2_d_a484b69b741bb37babd27306fbfc5990b} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+B\+RV@{get\+B\+RV}}
+\index{get\+B\+RV@{get\+B\+RV}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+B\+R\+V()}{getBRV()}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::get\+B\+RV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning an integer value. 
+
+getter for current bravery. \hypertarget{class_a_unit2_d_a5f1d562d11394d02ad291e7cdfaa159b}{}\label{class_a_unit2_d_a5f1d562d11394d02ad291e7cdfaa159b} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+HP@{get\+HP}}
+\index{get\+HP@{get\+HP}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+H\+P()}{getHP()}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::get\+HP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning an integer value. 
+
+getter for current hp. \hypertarget{class_a_unit2_d_aa66921015cf3b796869bd23fddcc162b}{}\label{class_a_unit2_d_aa66921015cf3b796869bd23fddcc162b} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+R\+FL@{get\+R\+FL}}
+\index{get\+R\+FL@{get\+R\+FL}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+R\+F\+L()}{getRFL()}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::get\+R\+FL (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning an integer value. 
+
+getter for reflex. \hypertarget{class_a_unit2_d_a6426fb6d603a376b3808d558cf07c17e}{}\label{class_a_unit2_d_a6426fb6d603a376b3808d558cf07c17e} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+Side@{get\+Side}}
+\index{get\+Side@{get\+Side}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+Side()}{getSide()}}
+{\footnotesize\ttfamily bool A\+Unit2\+D\+::get\+Side (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+getter for player side. \hypertarget{class_a_unit2_d_adbe5785b68849e82ab11c48f86df64e7}{}\label{class_a_unit2_d_adbe5785b68849e82ab11c48f86df64e7} 
+\index{A\+Unit2D@{A\+Unit2D}!get\+TU@{get\+TU}}
+\index{get\+TU@{get\+TU}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{get\+T\+U()}{getTU()}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::get\+TU (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member returning an integer value. 
+
+getter for current time unit. \hypertarget{class_a_unit2_d_a6a1a7ef96c7efebf5a7f50b011b7a6c0}{}\label{class_a_unit2_d_a6a1a7ef96c7efebf5a7f50b011b7a6c0} 
+\index{A\+Unit2D@{A\+Unit2D}!Handle\+Left\+Click@{Handle\+Left\+Click}}
+\index{Handle\+Left\+Click@{Handle\+Left\+Click}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Handle\+Left\+Click()}{HandleLeftClick()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::\+Handle\+Left\+Click (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+used for handling left clicks, depending on the current state \hypertarget{class_a_unit2_d_ae1e36f7fa10bf392c4ceb150fd6addc8}{}\label{class_a_unit2_d_ae1e36f7fa10bf392c4ceb150fd6addc8} 
+\index{A\+Unit2D@{A\+Unit2D}!hunker\+Down@{hunker\+Down}}
+\index{hunker\+Down@{hunker\+Down}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{hunker\+Down()}{hunkerDown()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::hunker\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Handle the \char`\"{}hunker down\char`\"{} freakout. \hypertarget{class_a_unit2_d_a8567eec6dc49533041735e125cace6e2}{}\label{class_a_unit2_d_a8567eec6dc49533041735e125cace6e2} 
+\index{A\+Unit2D@{A\+Unit2D}!move@{move}}
+\index{move@{move}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+move method. \hypertarget{class_a_unit2_d_a4e21cbdac89dcc72f670ad77dfc474cb}{}\label{class_a_unit2_d_a4e21cbdac89dcc72f670ad77dfc474cb} 
+\index{A\+Unit2D@{A\+Unit2D}!reload@{reload}}
+\index{reload@{reload}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reload()}{reload()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::reload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Reset current bullet count to the clipsize. \hypertarget{class_a_unit2_d_a509be02c409aec4f9db70eedc954dec8}{}\label{class_a_unit2_d_a509be02c409aec4f9db70eedc954dec8} 
+\index{A\+Unit2D@{A\+Unit2D}!reset\+Flashbang@{reset\+Flashbang}}
+\index{reset\+Flashbang@{reset\+Flashbang}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reset\+Flashbang()}{resetFlashbang()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::reset\+Flashbang (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Reset flashbang grenade count back to 2. \hypertarget{class_a_unit2_d_a895149436f783d3c0bbfe80556196438}{}\label{class_a_unit2_d_a895149436f783d3c0bbfe80556196438} 
+\index{A\+Unit2D@{A\+Unit2D}!reset\+Frag@{reset\+Frag}}
+\index{reset\+Frag@{reset\+Frag}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reset\+Frag()}{resetFrag()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::reset\+Frag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Reset frag grenade count back to 2. \hypertarget{class_a_unit2_d_a80ad176a4ed566c1fb18df231290c8b4}{}\label{class_a_unit2_d_a80ad176a4ed566c1fb18df231290c8b4} 
+\index{A\+Unit2D@{A\+Unit2D}!reset\+Smoke@{reset\+Smoke}}
+\index{reset\+Smoke@{reset\+Smoke}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reset\+Smoke()}{resetSmoke()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::reset\+Smoke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Reset smoke grenade count back to 2. \hypertarget{class_a_unit2_d_a141b33f9f1c9409e645960903ccb714f}{}\label{class_a_unit2_d_a141b33f9f1c9409e645960903ccb714f} 
+\index{A\+Unit2D@{A\+Unit2D}!reset\+TU@{reset\+TU}}
+\index{reset\+TU@{reset\+TU}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reset\+T\+U()}{resetTU()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::reset\+TU (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Set TU back to max. \hypertarget{class_a_unit2_d_aa0a382d42b3024c460e549054b158803}{}\label{class_a_unit2_d_aa0a382d42b3024c460e549054b158803} 
+\index{A\+Unit2D@{A\+Unit2D}!run@{run}}
+\index{run@{run}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Handle the \char`\"{}run\char`\"{} freakout. \hypertarget{class_a_unit2_d_a6c9367b81fabd482ded876c47e006d35}{}\label{class_a_unit2_d_a6c9367b81fabd482ded876c47e006d35} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+A\+CC@{set\+A\+CC}}
+\index{set\+A\+CC@{set\+A\+CC}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+A\+C\+C()}{setACC()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+A\+CC (\begin{DoxyParamCaption}\item[{int32}]{acc }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em acc} & new accuracy to set to setter for accuracy. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_a6a1ed9c8a68c9954bb88c58539250f87}{}\label{class_a_unit2_d_a6a1ed9c8a68c9954bb88c58539250f87} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+B\+RV@{set\+B\+RV}}
+\index{set\+B\+RV@{set\+B\+RV}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+B\+R\+V()}{setBRV()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+B\+RV (\begin{DoxyParamCaption}\item[{int32}]{brv }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em brv} & new bravery to set to setter for current bravery. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_a60a8c2a02713d1fb838757a2b74c0d5b}{}\label{class_a_unit2_d_a60a8c2a02713d1fb838757a2b74c0d5b} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+HP@{set\+HP}}
+\index{set\+HP@{set\+HP}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+H\+P()}{setHP()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+HP (\begin{DoxyParamCaption}\item[{int32}]{hp }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hp} & new healthpoint to set to\\
+\hline
+\end{DoxyParams}
+setter for current healthpoints. \hypertarget{class_a_unit2_d_a30c4c53f8789064bb9fc7b7d8703ae35}{}\label{class_a_unit2_d_a30c4c53f8789064bb9fc7b7d8703ae35} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+Percent\+B\+RV@{set\+Percent\+B\+RV}}
+\index{set\+Percent\+B\+RV@{set\+Percent\+B\+RV}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+Percent\+B\+R\+V()}{setPercentBRV()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+Percent\+B\+RV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Calculation for setting the percentage bravery. \hypertarget{class_a_unit2_d_af13c789a87a18daa455387f44d84d333}{}\label{class_a_unit2_d_af13c789a87a18daa455387f44d84d333} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+Percent\+Health@{set\+Percent\+Health}}
+\index{set\+Percent\+Health@{set\+Percent\+Health}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+Percent\+Health()}{setPercentHealth()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+Percent\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Calculation for setting the percentage health. \hypertarget{class_a_unit2_d_a0f93d2f4547813149e5b46530dcaba67}{}\label{class_a_unit2_d_a0f93d2f4547813149e5b46530dcaba67} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+Percent\+TU@{set\+Percent\+TU}}
+\index{set\+Percent\+TU@{set\+Percent\+TU}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+Percent\+T\+U()}{setPercentTU()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+Percent\+TU (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Calculation for setting the percentage TU. \hypertarget{class_a_unit2_d_a1f444ba247643672bec2a87beec14fb0}{}\label{class_a_unit2_d_a1f444ba247643672bec2a87beec14fb0} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+R\+FL@{set\+R\+FL}}
+\index{set\+R\+FL@{set\+R\+FL}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+R\+F\+L()}{setRFL()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+R\+FL (\begin{DoxyParamCaption}\item[{int32}]{rfl }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rfl} & new reflex to set to setter for reflexes. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_ac7e18514213510c0077518ab1052340a}{}\label{class_a_unit2_d_ac7e18514213510c0077518ab1052340a} 
+\index{A\+Unit2D@{A\+Unit2D}!set\+TU@{set\+TU}}
+\index{set\+TU@{set\+TU}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{set\+T\+U()}{setTU()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::set\+TU (\begin{DoxyParamCaption}\item[{int32}]{tu }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tu} & new time unit to set to setter for current time unit. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_ae5ce5587eb783da80ed36f7b55724a56}{}\label{class_a_unit2_d_ae5ce5587eb783da80ed36f7b55724a56} 
+\index{A\+Unit2D@{A\+Unit2D}!Setup\+Player\+Input\+Component@{Setup\+Player\+Input\+Component}}
+\index{Setup\+Player\+Input\+Component@{Setup\+Player\+Input\+Component}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Setup\+Player\+Input\+Component()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class U\+Input\+Component $\ast$}]{Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Inherited Member. 
+
+/param Input\+Component Inherited input component manage input methods \hypertarget{class_a_unit2_d_a6cbf098b221157bb99dc278b3c8dab70}{}\label{class_a_unit2_d_a6cbf098b221157bb99dc278b3c8dab70} 
+\index{A\+Unit2D@{A\+Unit2D}!shoot@{shoot}}
+\index{shoot@{shoot}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{shoot()}{shoot()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::shoot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+A method to handle the shoot action. \hypertarget{class_a_unit2_d_ae12beff66c2558df2ca19ae222900988}{}\label{class_a_unit2_d_ae12beff66c2558df2ca19ae222900988} 
+\index{A\+Unit2D@{A\+Unit2D}!smoke\+Grenade@{smoke\+Grenade}}
+\index{smoke\+Grenade@{smoke\+Grenade}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{smoke\+Grenade()}{smokeGrenade()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::smoke\+Grenade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+A method for handling the action of throwing a smoke grenade. \hypertarget{class_a_unit2_d_aa98e4af27fd175f81fc9761e4b139caf}{}\label{class_a_unit2_d_aa98e4af27fd175f81fc9761e4b139caf} 
+\index{A\+Unit2D@{A\+Unit2D}!stun@{stun}}
+\index{stun@{stun}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{stun()}{stun()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::stun (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A normal member. 
+
+Set TU to 0. \hypertarget{class_a_unit2_d_a383ec068bf651417a27c4e7f9a44ce1c}{}\label{class_a_unit2_d_a383ec068bf651417a27c4e7f9a44ce1c} 
+\index{A\+Unit2D@{A\+Unit2D}!take\+Damage@{take\+Damage}}
+\index{take\+Damage@{take\+Damage}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{take\+Damage()}{takeDamage()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::take\+Damage (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+A normal member taking an argument. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damage} & amount of damage taken Take damage, check if unit will die. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_unit2_d_aabcd72dc2ba9d71a56e58148382607b2}{}\label{class_a_unit2_d_aabcd72dc2ba9d71a56e58148382607b2} 
+\index{A\+Unit2D@{A\+Unit2D}!Tick@{Tick}}
+\index{Tick@{Tick}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Unit2\+D\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Inherited Member. 
+
+character update, called every frame 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_a_unit2_d_a639a503e506215b11c81167154bf9bfd}{}\label{class_a_unit2_d_a639a503e506215b11c81167154bf9bfd} 
+\index{A\+Unit2D@{A\+Unit2D}!accuracy@{accuracy}}
+\index{accuracy@{accuracy}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{accuracy}{accuracy}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::accuracy = 40\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Accuracy of the Unit, determines chance to hit, editable in engine. \hypertarget{class_a_unit2_d_a7f23a4544c24d5fd0489f2420a7b3eb4}{}\label{class_a_unit2_d_a7f23a4544c24d5fd0489f2420a7b3eb4} 
+\index{A\+Unit2D@{A\+Unit2D}!bullet@{bullet}}
+\index{bullet@{bullet}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{bullet}{bullet}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::bullet = \hyperlink{class_a_unit2_d_a7947b8f9bed2225ed223f37f21820960}{clip\+Size}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+current ammo of the Unit, used to determine if the unit may still perform the shoot action, editable in engine. \hypertarget{class_a_unit2_d_a7947b8f9bed2225ed223f37f21820960}{}\label{class_a_unit2_d_a7947b8f9bed2225ed223f37f21820960} 
+\index{A\+Unit2D@{A\+Unit2D}!clip\+Size@{clip\+Size}}
+\index{clip\+Size@{clip\+Size}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{clip\+Size}{clipSize}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::clip\+Size = 12\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Maximum ammo of the Unit, editable in engine. \hypertarget{class_a_unit2_d_aee9f4f0703e027df353d51811befb1c3}{}\label{class_a_unit2_d_aee9f4f0703e027df353d51811befb1c3} 
+\index{A\+Unit2D@{A\+Unit2D}!current\+Bravery@{current\+Bravery}}
+\index{current\+Bravery@{current\+Bravery}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{current\+Bravery}{currentBravery}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::current\+Bravery = 65\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Current Bravery of the Unit, editable in engine. \hypertarget{class_a_unit2_d_a24f6252522a9d97f9ea8ea9cbf6cca69}{}\label{class_a_unit2_d_a24f6252522a9d97f9ea8ea9cbf6cca69} 
+\index{A\+Unit2D@{A\+Unit2D}!current\+Time\+Unit@{current\+Time\+Unit}}
+\index{current\+Time\+Unit@{current\+Time\+Unit}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{current\+Time\+Unit}{currentTimeUnit}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::current\+Time\+Unit = 50\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Current Time Unit, used to determine what actions the unit can still take, editable in engine. \hypertarget{class_a_unit2_d_a898e4c6cf4c37c9a1b84d73a7fb30c6b}{}\label{class_a_unit2_d_a898e4c6cf4c37c9a1b84d73a7fb30c6b} 
+\index{A\+Unit2D@{A\+Unit2D}!flashbang@{flashbang}}
+\index{flashbang@{flashbang}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{flashbang}{flashbang}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::flashbang = 2\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Number of Flashbang grenades the unit has, used to determined if the unit may perform the Flashbang action, editable in engine. \hypertarget{class_a_unit2_d_ad2d855d2c78d2e1918b84df6ae4da192}{}\label{class_a_unit2_d_ad2d855d2c78d2e1918b84df6ae4da192} 
+\index{A\+Unit2D@{A\+Unit2D}!frag@{frag}}
+\index{frag@{frag}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{frag}{frag}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::frag = 2\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Number of Frag granades the unit has, used to determined if the unit may perform the frag grenade action, editable in engine. \hypertarget{class_a_unit2_d_a251c25f80c0fe087b892d82baf8cfa0d}{}\label{class_a_unit2_d_a251c25f80c0fe087b892d82baf8cfa0d} 
+\index{A\+Unit2D@{A\+Unit2D}!health\+Point@{health\+Point}}
+\index{health\+Point@{health\+Point}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{health\+Point}{healthPoint}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::health\+Point = 20\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Current health of the Unit, used to determine if the unit has been killed, editable in engine. \hypertarget{class_a_unit2_d_a1c7ee8387eeb37c2c1f735b61135865d}{}\label{class_a_unit2_d_a1c7ee8387eeb37c2c1f735b61135865d} 
+\index{A\+Unit2D@{A\+Unit2D}!Idle\+Animation@{Idle\+Animation}}
+\index{Idle\+Animation@{Idle\+Animation}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{Idle\+Animation}{IdleAnimation}}
+{\footnotesize\ttfamily class U\+Paper\+Flipbook$\ast$ A\+Unit2\+D\+::\+Idle\+Animation\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Sprite Flipbook for the Unit\textquotesingle{}s Idle animation. \hypertarget{class_a_unit2_d_ab916af70c15214293b1f868ef61538e2}{}\label{class_a_unit2_d_ab916af70c15214293b1f868ef61538e2} 
+\index{A\+Unit2D@{A\+Unit2D}!is\+Player\+One@{is\+Player\+One}}
+\index{is\+Player\+One@{is\+Player\+One}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{is\+Player\+One}{isPlayerOne}}
+{\footnotesize\ttfamily bool A\+Unit2\+D\+::is\+Player\+One = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Boolean that indicates the side that the unit is on. \hypertarget{class_a_unit2_d_a5e26bf8a80a9363d3538b1e1f675fb61}{}\label{class_a_unit2_d_a5e26bf8a80a9363d3538b1e1f675fb61} 
+\index{A\+Unit2D@{A\+Unit2D}!max\+Bravery@{max\+Bravery}}
+\index{max\+Bravery@{max\+Bravery}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{max\+Bravery}{maxBravery}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::max\+Bravery = 65\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Max bravery of the Unit, editable in engine. \hypertarget{class_a_unit2_d_a7c93157ba7198cdb15bde2e3b649988d}{}\label{class_a_unit2_d_a7c93157ba7198cdb15bde2e3b649988d} 
+\index{A\+Unit2D@{A\+Unit2D}!max\+Health@{max\+Health}}
+\index{max\+Health@{max\+Health}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{max\+Health}{maxHealth}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::max\+Health = 40\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Maximum health of the Unit, editable in engine. \hypertarget{class_a_unit2_d_a0a8041a5fc46bd09fed79303fbcd3ce5}{}\label{class_a_unit2_d_a0a8041a5fc46bd09fed79303fbcd3ce5} 
+\index{A\+Unit2D@{A\+Unit2D}!max\+Time\+Unit@{max\+Time\+Unit}}
+\index{max\+Time\+Unit@{max\+Time\+Unit}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{max\+Time\+Unit}{maxTimeUnit}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::max\+Time\+Unit = 50\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Maximum Time Unit, editable in engine. \hypertarget{class_a_unit2_d_a837bd3a0faaf2ebd2796de9a16da8fa0}{}\label{class_a_unit2_d_a837bd3a0faaf2ebd2796de9a16da8fa0} 
+\index{A\+Unit2D@{A\+Unit2D}!percent\+Brv@{percent\+Brv}}
+\index{percent\+Brv@{percent\+Brv}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{percent\+Brv}{percentBrv}}
+{\footnotesize\ttfamily float A\+Unit2\+D\+::percent\+Brv = \hyperlink{class_a_unit2_d_aee9f4f0703e027df353d51811befb1c3}{current\+Bravery}$\ast$1.\+0/ \hyperlink{class_a_unit2_d_a5e26bf8a80a9363d3538b1e1f675fb61}{max\+Bravery}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Percentage Bravery of the Unit, calculated by dividing the current bravery by the maximum. Used to deternime chance to freak out, editable in engine. \hypertarget{class_a_unit2_d_a731e52449dba6368b509b78ac95c0dc0}{}\label{class_a_unit2_d_a731e52449dba6368b509b78ac95c0dc0} 
+\index{A\+Unit2D@{A\+Unit2D}!percent\+Health@{percent\+Health}}
+\index{percent\+Health@{percent\+Health}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{percent\+Health}{percentHealth}}
+{\footnotesize\ttfamily float A\+Unit2\+D\+::percent\+Health = \hyperlink{class_a_unit2_d_a251c25f80c0fe087b892d82baf8cfa0d}{health\+Point}$\ast$1.\+0/\hyperlink{class_a_unit2_d_a7c93157ba7198cdb15bde2e3b649988d}{max\+Health}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Percentage health of the unit, based on current health divide by maximum health, editable in engine. \hypertarget{class_a_unit2_d_a45d8a7f3f28c1a641dd4124c4b7ba272}{}\label{class_a_unit2_d_a45d8a7f3f28c1a641dd4124c4b7ba272} 
+\index{A\+Unit2D@{A\+Unit2D}!percent\+TU@{percent\+TU}}
+\index{percent\+TU@{percent\+TU}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{percent\+TU}{percentTU}}
+{\footnotesize\ttfamily float A\+Unit2\+D\+::percent\+TU = \hyperlink{class_a_unit2_d_a24f6252522a9d97f9ea8ea9cbf6cca69}{current\+Time\+Unit}$\ast$1.\+0 / \hyperlink{class_a_unit2_d_a0a8041a5fc46bd09fed79303fbcd3ce5}{max\+Time\+Unit}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Percentage Time Unit of the unit, calculated by dividing the current TU by the Maximum TU, editable in engine. \hypertarget{class_a_unit2_d_a6945ed1b7f56335e3c42d414f9e9b243}{}\label{class_a_unit2_d_a6945ed1b7f56335e3c42d414f9e9b243} 
+\index{A\+Unit2D@{A\+Unit2D}!range\+Falloff@{range\+Falloff}}
+\index{range\+Falloff@{range\+Falloff}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{range\+Falloff}{rangeFalloff}}
+{\footnotesize\ttfamily float A\+Unit2\+D\+::range\+Falloff\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+range falloff of the unit, used to determine accuracy based on the distance between this unit and the unit it is attacking, editable in engine. \hypertarget{class_a_unit2_d_a178510f321f19d1fa8b19b1a16b7dcfb}{}\label{class_a_unit2_d_a178510f321f19d1fa8b19b1a16b7dcfb} 
+\index{A\+Unit2D@{A\+Unit2D}!reflex@{reflex}}
+\index{reflex@{reflex}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{reflex}{reflex}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::reflex = 55\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Reflex of the Unit, determies chance to not be hit, editable in engine. \hypertarget{class_a_unit2_d_a6cfd32ab7bfaa5dbc64defd1f74bf459}{}\label{class_a_unit2_d_a6cfd32ab7bfaa5dbc64defd1f74bf459} 
+\index{A\+Unit2D@{A\+Unit2D}!smoke@{smoke}}
+\index{smoke@{smoke}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{smoke}{smoke}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::smoke = 2\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Number of Smoke granades the unit has, used to determined if the unit may perform the Smoke action, editable in engine. \hypertarget{class_a_unit2_d_a03b2c6b3e63c261e81b5a193ed0d4acd}{}\label{class_a_unit2_d_a03b2c6b3e63c261e81b5a193ed0d4acd} 
+\index{A\+Unit2D@{A\+Unit2D}!sprite\+Comp@{sprite\+Comp}}
+\index{sprite\+Comp@{sprite\+Comp}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{sprite\+Comp}{spriteComp}}
+{\footnotesize\ttfamily class U\+Paper\+Sprite\+Component$\ast$ A\+Unit2\+D\+::sprite\+Comp\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Sprite class for the Unit. \hypertarget{class_a_unit2_d_a33b3a09dc710021ce343630e828ebb1b}{}\label{class_a_unit2_d_a33b3a09dc710021ce343630e828ebb1b} 
+\index{A\+Unit2D@{A\+Unit2D}!state@{state}}
+\index{state@{state}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily E\+Unit\+State A\+Unit2\+D\+::state = E\+Unit\+State\+::\+U\+S\+\_\+\+Idle}
+
+
+
+A public variable. 
+
+Enum for the current state of the unit. \hypertarget{class_a_unit2_d_ab8a5bca2e21f1c992b887646d19a7025}{}\label{class_a_unit2_d_ab8a5bca2e21f1c992b887646d19a7025} 
+\index{A\+Unit2D@{A\+Unit2D}!weapon\+Cost@{weapon\+Cost}}
+\index{weapon\+Cost@{weapon\+Cost}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{weapon\+Cost}{weaponCost}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::weapon\+Cost = 32\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+cost, in TU, of the Unit\textquotesingle{}s weapon, editable in engine. \hypertarget{class_a_unit2_d_a583df0bd3be284fddf24c1c627053767}{}\label{class_a_unit2_d_a583df0bd3be284fddf24c1c627053767} 
+\index{A\+Unit2D@{A\+Unit2D}!weapon\+Dmg@{weapon\+Dmg}}
+\index{weapon\+Dmg@{weapon\+Dmg}!A\+Unit2D@{A\+Unit2D}}
+\subsubsection{\texorpdfstring{weapon\+Dmg}{weaponDmg}}
+{\footnotesize\ttfamily int32 A\+Unit2\+D\+::weapon\+Dmg = 20\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A protected variable. 
+
+Weapon damage, used to determine the damage the unit will do to another, editable in engine. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Unit2\+D.\+h\item 
+Unit2\+D.\+cpp\end{DoxyCompactItemize}

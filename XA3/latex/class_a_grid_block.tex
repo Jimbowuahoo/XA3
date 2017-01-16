@@ -1,0 +1,187 @@
+\hypertarget{class_a_grid_block}{}\section{A\+Grid\+Block Class Reference}
+\label{class_a_grid_block}\index{A\+Grid\+Block@{A\+Grid\+Block}}
+
+
+Class for clickable blocks.  
+
+
+
+
+{\ttfamily \#include $<$Grid\+Block.\+h$>$}
+
+Inheritance diagram for A\+Grid\+Block\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_grid_block}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_a_grid_block_a359898585d272e8d3ca0216f880d3d25}{Block\+Clicked} (U\+Primitive\+Component $\ast$Clicked\+Comp, F\+Key Button\+Clicked)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_grid_block_adb85baf2109b5a97d951b999b2890524}{On\+Finger\+Pressed\+Block} (E\+Touch\+Index\+::\+Type Finger\+Index, U\+Primitive\+Component $\ast$Touched\+Component)
+\begin{DoxyCompactList}\small\item\em A public member taking in two variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_grid_block_aab961b92795d28c156b9a64bf4936e36}{Handle\+Clicked} ()
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\item 
+\hypertarget{class_a_grid_block_a7f649750d4be151d29f98a7c5bc898ad}{}\label{class_a_grid_block_a7f649750d4be151d29f98a7c5bc898ad} 
+void {\bfseries Highlight} (bool b\+On)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Scene\+Component $\ast$ \hyperlink{class_a_grid_block_a666f4929d04306cbe30f437d8f9f94a4}{Get\+Dummy\+Root} () const
+\begin{DoxyCompactList}\small\item\em A public member taking. \end{DoxyCompactList}\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Static\+Mesh\+Component $\ast$ \hyperlink{class_a_grid_block_a88866015576480a21a82b9de762cfacf}{Get\+Block\+Mesh} () const
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_a_grid_block_a60c1ca6cb04e583147be45b85e3a1831}{b\+Is\+Active}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class U\+Material $\ast$ \hyperlink{class_a_grid_block_a30a0b537773f34ab41c2881f8e124f3a}{Base\+Material}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class U\+Material\+Instance $\ast$ \hyperlink{class_a_grid_block_a5687a984bdcb701c04af87d875c27e1f}{Blue\+Material}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class U\+Material\+Instance $\ast$ \hyperlink{class_a_grid_block_a4a396f418bffcef7a96b40e387cfd927}{Orange\+Material}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+class \hyperlink{class_a_unreal_grid}{A\+Unreal\+Grid} $\ast$ \hyperlink{class_a_grid_block_af3dc096c5f96aba9b3b882f3f11deb93}{Owning\+Grid}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+uint32 \hyperlink{class_a_grid_block_a8050ae31d3015e14fcae9d553977cea1}{x}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+uint32 \hyperlink{class_a_grid_block_aad833bb2a47f65ef3cbba7940687c819}{y}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for clickable blocks. 
+
+A class that defines clickable blocks 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_grid_block_a359898585d272e8d3ca0216f880d3d25}{}\label{class_a_grid_block_a359898585d272e8d3ca0216f880d3d25} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Block\+Clicked@{Block\+Clicked}}
+\index{Block\+Clicked@{Block\+Clicked}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Block\+Clicked()}{BlockClicked()}}
+{\footnotesize\ttfamily void A\+Grid\+Block\+::\+Block\+Clicked (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Clicked\+Comp,  }\item[{F\+Key}]{Button\+Clicked }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variables. 
+
+/param Clicked\+Comp the component that does the clicking /param Button\+Clicked Clicked button Handle the block being clicked. \hypertarget{class_a_grid_block_a88866015576480a21a82b9de762cfacf}{}\label{class_a_grid_block_a88866015576480a21a82b9de762cfacf} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Get\+Block\+Mesh@{Get\+Block\+Mesh}}
+\index{Get\+Block\+Mesh@{Get\+Block\+Mesh}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Get\+Block\+Mesh()}{GetBlockMesh()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Static\+Mesh\+Component$\ast$ A\+Grid\+Block\+::\+Get\+Block\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A public member. 
+
+Returns Block\+Mesh subobject. \hypertarget{class_a_grid_block_a666f4929d04306cbe30f437d8f9f94a4}{}\label{class_a_grid_block_a666f4929d04306cbe30f437d8f9f94a4} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Get\+Dummy\+Root@{Get\+Dummy\+Root}}
+\index{Get\+Dummy\+Root@{Get\+Dummy\+Root}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Get\+Dummy\+Root()}{GetDummyRoot()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Scene\+Component$\ast$ A\+Grid\+Block\+::\+Get\+Dummy\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A public member taking. 
+
+Returns Dummy\+Root subobject. \hypertarget{class_a_grid_block_aab961b92795d28c156b9a64bf4936e36}{}\label{class_a_grid_block_aab961b92795d28c156b9a64bf4936e36} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Handle\+Clicked@{Handle\+Clicked}}
+\index{Handle\+Clicked@{Handle\+Clicked}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Handle\+Clicked()}{HandleClicked()}}
+{\footnotesize\ttfamily void A\+Grid\+Block\+::\+Handle\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member. 
+
+Handle Clicks on grid. \hypertarget{class_a_grid_block_adb85baf2109b5a97d951b999b2890524}{}\label{class_a_grid_block_adb85baf2109b5a97d951b999b2890524} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!On\+Finger\+Pressed\+Block@{On\+Finger\+Pressed\+Block}}
+\index{On\+Finger\+Pressed\+Block@{On\+Finger\+Pressed\+Block}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{On\+Finger\+Pressed\+Block()}{OnFingerPressedBlock()}}
+{\footnotesize\ttfamily void A\+Grid\+Block\+::\+On\+Finger\+Pressed\+Block (\begin{DoxyParamCaption}\item[{E\+Touch\+Index\+::\+Type}]{Finger\+Index,  }\item[{U\+Primitive\+Component $\ast$}]{Touched\+Component }\end{DoxyParamCaption})}
+
+
+
+A public member taking in two variables. 
+
+/param Finger\+Index touch index /param Touched\+Component the component that handles touch Handle the block being touched. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_a_grid_block_a30a0b537773f34ab41c2881f8e124f3a}{}\label{class_a_grid_block_a30a0b537773f34ab41c2881f8e124f3a} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Base\+Material@{Base\+Material}}
+\index{Base\+Material@{Base\+Material}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Base\+Material}{BaseMaterial}}
+{\footnotesize\ttfamily class U\+Material$\ast$ A\+Grid\+Block\+::\+Base\+Material}
+
+
+
+A public variable. 
+
+Pointer to white material used on the focused block \hypertarget{class_a_grid_block_a60c1ca6cb04e583147be45b85e3a1831}{}\label{class_a_grid_block_a60c1ca6cb04e583147be45b85e3a1831} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!b\+Is\+Active@{b\+Is\+Active}}
+\index{b\+Is\+Active@{b\+Is\+Active}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{b\+Is\+Active}{bIsActive}}
+{\footnotesize\ttfamily bool A\+Grid\+Block\+::b\+Is\+Active}
+
+
+
+A public variable. 
+
+Are we currently active? \hypertarget{class_a_grid_block_a5687a984bdcb701c04af87d875c27e1f}{}\label{class_a_grid_block_a5687a984bdcb701c04af87d875c27e1f} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Blue\+Material@{Blue\+Material}}
+\index{Blue\+Material@{Blue\+Material}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Blue\+Material}{BlueMaterial}}
+{\footnotesize\ttfamily class U\+Material\+Instance$\ast$ A\+Grid\+Block\+::\+Blue\+Material}
+
+
+
+A public variable. 
+
+Pointer to blue material used on inactive blocks \hypertarget{class_a_grid_block_a4a396f418bffcef7a96b40e387cfd927}{}\label{class_a_grid_block_a4a396f418bffcef7a96b40e387cfd927} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Orange\+Material@{Orange\+Material}}
+\index{Orange\+Material@{Orange\+Material}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Orange\+Material}{OrangeMaterial}}
+{\footnotesize\ttfamily class U\+Material\+Instance$\ast$ A\+Grid\+Block\+::\+Orange\+Material}
+
+
+
+A public variable. 
+
+Pointer to orange material used on active blocks \hypertarget{class_a_grid_block_af3dc096c5f96aba9b3b882f3f11deb93}{}\label{class_a_grid_block_af3dc096c5f96aba9b3b882f3f11deb93} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!Owning\+Grid@{Owning\+Grid}}
+\index{Owning\+Grid@{Owning\+Grid}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{Owning\+Grid}{OwningGrid}}
+{\footnotesize\ttfamily class \hyperlink{class_a_unreal_grid}{A\+Unreal\+Grid}$\ast$ A\+Grid\+Block\+::\+Owning\+Grid}
+
+
+
+A public variable. 
+
+\hyperlink{class_grid}{Grid} that owns us \hypertarget{class_a_grid_block_a8050ae31d3015e14fcae9d553977cea1}{}\label{class_a_grid_block_a8050ae31d3015e14fcae9d553977cea1} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!x@{x}}
+\index{x@{x}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily uint32 A\+Grid\+Block\+::x}
+
+
+
+A public variable. 
+
+X-\/co-\/ordinate \hypertarget{class_a_grid_block_aad833bb2a47f65ef3cbba7940687c819}{}\label{class_a_grid_block_aad833bb2a47f65ef3cbba7940687c819} 
+\index{A\+Grid\+Block@{A\+Grid\+Block}!y@{y}}
+\index{y@{y}!A\+Grid\+Block@{A\+Grid\+Block}}
+\subsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily uint32 A\+Grid\+Block\+::y}
+
+
+
+A public variable. 
+
+Y-\/co-\/ordinate 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Grid\+Block.\+h\item 
+Grid\+Block.\+cpp\end{DoxyCompactItemize}

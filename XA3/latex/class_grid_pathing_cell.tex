@@ -1,0 +1,205 @@
+\hypertarget{class_grid_pathing_cell}{}\section{Grid\+Pathing\+Cell Class Reference}
+\label{class_grid_pathing_cell}\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+
+
+Class for Cells in the grid, required for pathin.  
+
+
+
+
+{\ttfamily \#include $<$Grid\+Pathing\+Cell.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_grid_pathing_cell_acbe865cb1e21ae9e22fda91a6eac7a57}{Grid\+Pathing\+Cell} (uint16 x\+Cord, uint16 y\+Cord)
+\begin{DoxyCompactList}\small\item\em Constructor taking in two unsigned integer values. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_cell_a6d360533681a9fc827b0b01c12f9fbf1}{set\+Last} (uint16 x\+Cord, uint16 y\+Cord)
+\begin{DoxyCompactList}\small\item\em A public member that takes in two variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_cell_a7e0b53ba48d7aa0576147759836b933a}{set\+Score} (uint16 \hyperlink{class_grid_pathing_cell_ab4d6783c766e718c20b173a89fe8e74d}{score})
+\begin{DoxyCompactList}\small\item\em A public member that takes in a variables. \end{DoxyCompactList}\item 
+void \hyperlink{class_grid_pathing_cell_ae706bf7d75f31d2a00d5e6de28da635c}{reset} ()
+\begin{DoxyCompactList}\small\item\em A public member. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_cell_afa21d615e383d1f01664590903d71f8f}{get\+Score} ()
+\begin{DoxyCompactList}\small\item\em A public member returning an unsigned integer value. \end{DoxyCompactList}\item 
+T\+Array$<$ int16 $>$ \hyperlink{class_grid_pathing_cell_ad188a53ba82a3ee991f57cc3fdd0fb5f}{get\+Last} ()
+\begin{DoxyCompactList}\small\item\em A public member returning an integer array. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_cell_aa4d5642ce2427123298c94b49ba7967a}{getX} ()
+\begin{DoxyCompactList}\small\item\em A public member returning an unsigned integer value. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_cell_af1690d5798fb128d6bbf850375402ce1}{getY} ()
+\begin{DoxyCompactList}\small\item\em A public member returning an unsigned integer value. \end{DoxyCompactList}\item 
+\hyperlink{class_grid_pathing_cell_ad249acb6a70659728d0b872a2978fd39}{Grid\+Pathing\+Cell} (const \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} \&origin)
+\begin{DoxyCompactList}\small\item\em Constructor taking in a \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint16 \hyperlink{class_grid_pathing_cell_a489c6c82b1ba484e9f9145c00ec165c0}{x}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_cell_a32de04e3614f2e37622a281fdbc24d66}{y}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+uint16 \hyperlink{class_grid_pathing_cell_ab4d6783c766e718c20b173a89fe8e74d}{score}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int16 \hyperlink{class_grid_pathing_cell_a3b2f9ec49d3e8a2aa3588eda310c8029}{x\+Last}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\item 
+int16 \hyperlink{class_grid_pathing_cell_a3a1c2724f3308954f52f77c09d7d6d62}{y\+Last}
+\begin{DoxyCompactList}\small\item\em A public variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for Cells in the grid, required for pathin. 
+
+A class that contains perameters of the grid pathing cell, an object that represents individual cells in a grid. Used in the \hyperlink{class_grid_pathing}{Grid\+Pathing} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_grid_pathing_cell_acbe865cb1e21ae9e22fda91a6eac7a57}{}\label{class_grid_pathing_cell_acbe865cb1e21ae9e22fda91a6eac7a57} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{Grid\+Pathing\+Cell()}{GridPathingCell()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Grid\+Pathing\+Cell\+::\+Grid\+Pathing\+Cell (\begin{DoxyParamCaption}\item[{uint16}]{x\+Cord,  }\item[{uint16}]{y\+Cord }\end{DoxyParamCaption})}
+
+
+
+Constructor taking in two unsigned integer values. 
+
+/param x\+Cord x coordinate of the cell /param y\+Cord y coordinate of the cell Initiate the object with x and y coordinates. \hypertarget{class_grid_pathing_cell_ad249acb6a70659728d0b872a2978fd39}{}\label{class_grid_pathing_cell_ad249acb6a70659728d0b872a2978fd39} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{Grid\+Pathing\+Cell()}{GridPathingCell()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Grid\+Pathing\+Cell\+::\+Grid\+Pathing\+Cell (\begin{DoxyParamCaption}\item[{const \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell} \&}]{origin }\end{DoxyParamCaption})}
+
+
+
+Constructor taking in a \hyperlink{class_grid_pathing_cell}{Grid\+Pathing\+Cell}. 
+
+/param origin the origin cell \hyperlink{class_grid}{Grid} Pathing constructor with a \hyperlink{class_grid}{Grid} Pathing object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_grid_pathing_cell_ad188a53ba82a3ee991f57cc3fdd0fb5f}{}\label{class_grid_pathing_cell_ad188a53ba82a3ee991f57cc3fdd0fb5f} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!get\+Last@{get\+Last}}
+\index{get\+Last@{get\+Last}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{get\+Last()}{getLast()}}
+{\footnotesize\ttfamily T\+Array$<$ int16 $>$ Grid\+Pathing\+Cell\+::get\+Last (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member returning an integer array. 
+
+Get the x\+Last and y\+Last values as an array. \hypertarget{class_grid_pathing_cell_afa21d615e383d1f01664590903d71f8f}{}\label{class_grid_pathing_cell_afa21d615e383d1f01664590903d71f8f} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!get\+Score@{get\+Score}}
+\index{get\+Score@{get\+Score}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{get\+Score()}{getScore()}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member returning an unsigned integer value. 
+
+Get the score of the cell. \hypertarget{class_grid_pathing_cell_aa4d5642ce2427123298c94b49ba7967a}{}\label{class_grid_pathing_cell_aa4d5642ce2427123298c94b49ba7967a} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!getX@{getX}}
+\index{getX@{getX}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member returning an unsigned integer value. 
+
+Get X. \hypertarget{class_grid_pathing_cell_af1690d5798fb128d6bbf850375402ce1}{}\label{class_grid_pathing_cell_af1690d5798fb128d6bbf850375402ce1} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!getY@{getY}}
+\index{getY@{getY}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member returning an unsigned integer value. 
+
+Get Y. \hypertarget{class_grid_pathing_cell_ae706bf7d75f31d2a00d5e6de28da635c}{}\label{class_grid_pathing_cell_ae706bf7d75f31d2a00d5e6de28da635c} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!reset@{reset}}
+\index{reset@{reset}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+Cell\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A public member. 
+
+Reset the cell. \hypertarget{class_grid_pathing_cell_a6d360533681a9fc827b0b01c12f9fbf1}{}\label{class_grid_pathing_cell_a6d360533681a9fc827b0b01c12f9fbf1} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!set\+Last@{set\+Last}}
+\index{set\+Last@{set\+Last}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{set\+Last()}{setLast()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+Cell\+::set\+Last (\begin{DoxyParamCaption}\item[{uint16}]{x\+Cord,  }\item[{uint16}]{y\+Cord }\end{DoxyParamCaption})}
+
+
+
+A public member that takes in two variables. 
+
+/param x\+Cord x value to set x\+Last to /param y\+Cord y value to set y\+Last to Set the last X Y coordinates of the cell. \hypertarget{class_grid_pathing_cell_a7e0b53ba48d7aa0576147759836b933a}{}\label{class_grid_pathing_cell_a7e0b53ba48d7aa0576147759836b933a} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!set\+Score@{set\+Score}}
+\index{set\+Score@{set\+Score}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{set\+Score()}{setScore()}}
+{\footnotesize\ttfamily void Grid\+Pathing\+Cell\+::set\+Score (\begin{DoxyParamCaption}\item[{uint16}]{score }\end{DoxyParamCaption})}
+
+
+
+A public member that takes in a variables. 
+
+/param score score to be set to Set score of the cell. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_grid_pathing_cell_ab4d6783c766e718c20b173a89fe8e74d}{}\label{class_grid_pathing_cell_ab4d6783c766e718c20b173a89fe8e74d} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!score@{score}}
+\index{score@{score}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::score}
+
+
+
+A public variable. 
+
+Cost of reaching this cell from the origin, with diagonals worth more than horizontals and verticals \hypertarget{class_grid_pathing_cell_a489c6c82b1ba484e9f9145c00ec165c0}{}\label{class_grid_pathing_cell_a489c6c82b1ba484e9f9145c00ec165c0} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!x@{x}}
+\index{x@{x}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::x}
+
+
+
+A public variable. 
+
+X coordinate of the cell. \hypertarget{class_grid_pathing_cell_a3b2f9ec49d3e8a2aa3588eda310c8029}{}\label{class_grid_pathing_cell_a3b2f9ec49d3e8a2aa3588eda310c8029} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!x\+Last@{x\+Last}}
+\index{x\+Last@{x\+Last}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{x\+Last}{xLast}}
+{\footnotesize\ttfamily int16 Grid\+Pathing\+Cell\+::x\+Last}
+
+
+
+A public variable. 
+
+X coordinate of the last cell to reach this one from the origin with the lowest score. \hypertarget{class_grid_pathing_cell_a32de04e3614f2e37622a281fdbc24d66}{}\label{class_grid_pathing_cell_a32de04e3614f2e37622a281fdbc24d66} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!y@{y}}
+\index{y@{y}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily uint16 Grid\+Pathing\+Cell\+::y}
+
+
+
+A public variable. 
+
+Y coordinate of the cell. \hypertarget{class_grid_pathing_cell_a3a1c2724f3308954f52f77c09d7d6d62}{}\label{class_grid_pathing_cell_a3a1c2724f3308954f52f77c09d7d6d62} 
+\index{Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}!y\+Last@{y\+Last}}
+\index{y\+Last@{y\+Last}!Grid\+Pathing\+Cell@{Grid\+Pathing\+Cell}}
+\subsubsection{\texorpdfstring{y\+Last}{yLast}}
+{\footnotesize\ttfamily int16 Grid\+Pathing\+Cell\+::y\+Last}
+
+
+
+A public variable. 
+
+Y coordinate of the last cell to reach this one from the origin with the lowest score. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Grid\+Pathing\+Cell.\+h\item 
+Grid\+Pathing\+Cell.\+cpp\end{DoxyCompactItemize}
